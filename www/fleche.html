@@ -39,15 +39,23 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Calculateur pour Fleche et Chamois</title>
+    <title>Fleche</title>
 </head>
 
 <body>
     <div class="app">
-<A HREF = "fleche.html">Fleche<BR><IMG SRC= "img/fleche.jpg" ALT="FLECHE"></A>
-<P>
-<A HREF = "chamois.html">Chamois<BR><IMG SRC= "img/chamois.png" ALT="CHAMOIS"></A>
-
+        <h2>FLECHE</h2>
+<form oninput="x.value=parseFloat(parseFloat(a.value)/(1.0+(parseFloat(b.value)/100.0))).toFixed(2);yO.value=parseFloat(parseFloat(x.value)*(1+(15/100))).toFixed(2);;yV.value=parseFloat(parseFloat(x.value)*(1+(28/100))).toFixed(2);yA.value=parseFloat(parseFloat(x.value)*(1+(40/100))).toFixed(2);yB.value=parseFloat(parseFloat(x.value)*(1+(50/100))).toFixed(2);yF.value=parseFloat(parseFloat(x.value)*(1+(55/100))).toFixed(2)">
+  Temps de Base:<BR> <input type="number" id="a" value="50"><BR>
+  Handicap:<BR> <input type="number" id="b" value="6"><BR>
+  <B>Temps de Reference: <output name="x"></output></B><BR>
+  Or: <output name="yO"></output><BR>
+  Vermeil: <output name="yV"></output><BR>
+  Argent: <output name="yA"></output><BR>
+  Bronze: <output name="yB"></output><BR>
+  Flechette: <output name="yF"></output>
+</form>
+ 
             <p class="event listening">Connecting to Device</p>
             <p class="event received">Device is Ready</p>
         </div>
