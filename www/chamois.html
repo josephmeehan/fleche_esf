@@ -45,7 +45,7 @@
 <body>
     <div class="app">
 <H2>CHAMOIS</H2>
-<form oninput="x.value=parseFloat(parseFloat(a.value)/(1.0+(parseFloat(b.value)/100.0))).toFixed(2);yO.value=parseFloat(parseFloat(x.value)*(1+(17/100))).toFixed(2);;yV.value=parseFloat(parseFloat(x.value)*(1+(35/100))).toFixed(2);yA.value=parseFloat(parseFloat(x.value)*(1+(55/100))).toFixed(2);yB.value=parseFloat(parseFloat(x.value)*(1+(75/100))).toFixed(2);yF.value=parseFloat(parseFloat(x.value)*(1+(80/100))).toFixed(2)">
+<form oninput="x.value=parseFloat(parseFloat(a.value)/(1.0+(parseFloat(b.value)/100.0))).toFixed(2);yO.value=parseFloat(parseFloat(x.value)*(1+(17/100))).toFixed(2);;yV.value=parseFloat(parseFloat(x.value)*(1+(35/100))).toFixed(2);yA.value=parseFloat(parseFloat(x.value)*(1+(55/100))).toFixed(2);yB.value=parseFloat(parseFloat(x.value)*(1+(75/100))).toFixed(2);yF.value=parseFloat(parseFloat(x.value)*(1+(80/100))).toFixed(2);yS.value=parseFloat(((parseFloat(c.value)/parseFloat(x.value))-1)*100).toFixed(2)">
   Temps de Base:<BR> <input type="number" id="a" value="50"><BR>
   Handicap:<BR> <input type="number" id="b" value="6"><BR>
   <B>Temps de Reference: <output name="x"></output></B><BR>
@@ -53,16 +53,27 @@
   Vermeil: <output name="yV"></output><BR>
   Argent: <output name="yA"></output><BR>
   Bronze: <output name="yB"></output><BR>
-  Cabri: <output name="yF"></output>
+  Cabri: <output name="yF"></output><P>
+  Votre Temps:<BR> <input type="number" id="c" value=""><BR>
+  Vos Points Ski-Open: <output name="yS"></output><BR>
 </form> 
 
-        </div>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
+    
+<p style="position: fixed; bottom: 0; width:100%; text-align: center">
+<a href="index.html"><img alt="Back" src="img/backarrow.png" border=0></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="http://www.twitter.com/josephmeehan"><img alt="follow me on Twitter" src="img/twitter30x30.png" border=0></a>&nbsp&nbsp&nbsp&nbsp
+<a href="http://www.facebook.com/joseph.meehan.714"><img alt="follow me on Facebook" src="img/facebook30x30.png" border=0></a>&nbsp&nbsp&nbsp&nbsp
+<a href="http://www.youtube.com/channel/UC1_V6cVkg2rABD9bBDGSBvw"><img alt="follow me on Youtube" src="img/youtube30x30.png" border=0></a>&nbsp&nbsp&nbsp&nbsp
+<a href="http://fr.linkedin.com/in/josephmeehan"><img alt="follow me on LinkedIn" src="img/linkedin30x30.jpg" border=0></a>&nbsp&nbsp&nbsp&nbsp   
+</p>
+    
 </body>
 
 </html>

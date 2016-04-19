@@ -45,24 +45,27 @@
 <body>
     <div class="app">
         <h2>FLECHE</h2>
-<form oninput="x.value=parseFloat(parseFloat(a.value)/(1.0+(parseFloat(b.value)/100.0))).toFixed(2);yO.value=parseFloat(parseFloat(x.value)*(1+(15/100))).toFixed(2);;yV.value=parseFloat(parseFloat(x.value)*(1+(28/100))).toFixed(2);yA.value=parseFloat(parseFloat(x.value)*(1+(40/100))).toFixed(2);yB.value=parseFloat(parseFloat(x.value)*(1+(50/100))).toFixed(2);yF.value=parseFloat(parseFloat(x.value)*(1+(55/100))).toFixed(2)">
+<form oninput="x.value=parseFloat(parseFloat(a.value)/(1.0+(parseFloat(b.value)/100.0))).toFixed(2);yO.value=parseFloat(parseFloat(x.value)*(1+(15/100))).toFixed(2);;yV.value=parseFloat(parseFloat(x.value)*(1+(28/100))).toFixed(2);yA.value=parseFloat(parseFloat(x.value)*(1+(40/100))).toFixed(2);yB.value=parseFloat(parseFloat(x.value)*(1+(50/100))).toFixed(2);yF.value=parseFloat(parseFloat(x.value)*(1+(55/100))).toFixed(2);yS.value=parseFloat(((parseFloat(c.value)/parseFloat(x.value))-1)*100).toFixed(2)">
   Temps de Base:<BR> <input type="number" id="a" value="50"><BR>
   Handicap:<BR> <input type="number" id="b" value="6"><BR>
-  <B>Temps de Reference: <output name="x"></output></B><BR>
+  <FONT COLOR = "blue"><B>Temps de Reference: <output name="x"></output></B></FONT><BR>
   Or: <output name="yO"></output><BR>
   Vermeil: <output name="yV"></output><BR>
   Argent: <output name="yA"></output><BR>
   Bronze: <output name="yB"></output><BR>
-  Flechette: <output name="yF"></output>
+  Flechette: <output name="yF"></output><P>
+  Votre Temps:<BR> <input type="number" id="c" value=""><BR>
+  Vos Points Ski-Open: <output name="yS"></output><BR>
 </form>
- 
-        </div>
+
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
+    
+   
 </body>
 
 </html>
