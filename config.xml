@@ -25,7 +25,7 @@
   <plugin name="cordova-plugin-statusbar" source="npm"/>
   <plugin name="cordova-plugin-vibration" source="npm"/>
   <plugin name="cordova-plugin-whitelist" source="npm"/>
-  <gap:plugin name="phonegap-admob" 	      source="npm" />
+  <gap:plugin name="cordova-plugin-admob" 	      source="npm" />
   <icon src="icon.png"/>
   <platform name="android">
     <icon src="www/res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
