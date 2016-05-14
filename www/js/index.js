@@ -34,8 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        
-        admob.createBannerView(publisherId: "ca-app-pub-3940256099942544/6300978111");
+        AdMob.createBanner({adId: "ca-app-pub-3940256099942544/6300978111",  position: AdMob.AD_POSITION.TOP_CENTER, autoShow: true });
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
