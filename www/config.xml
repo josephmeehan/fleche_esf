@@ -4,15 +4,15 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.fleche_esf"
-        version   = "0.1.0">
+        version   = "0.4.0">
 
-    <name>Fleche et Chamois Calculatrice</name>
+    <name>Fleche et Chamois Calculateur</name>
 
     <description>
         Un outil pour calculer les points pour des competitions ESF Fleche et Chamois
     </description>
 
-    <author href="http://joemeehan.blogspot.com" email="josephmeehan@yahoo.com">
+    <author href="http://joemeehan.blogspot.com" email="meehan.joseph@gmail.com">
         Joe Meehan
     </author>
 
