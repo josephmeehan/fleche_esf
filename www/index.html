@@ -84,8 +84,9 @@
                     isTesting: true
                 });
             }
+            else { alert( 'admob plugin not ready' ); return; }
         }
-
+        AdMob.showBanner();
         document.addEventListener('deviceready', initApp, false);
     </script>
  
