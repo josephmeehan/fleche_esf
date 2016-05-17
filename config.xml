@@ -26,7 +26,7 @@
   <plugin name="cordova-plugin-vibration" source="npm"/>
   <plugin name="cordova-plugin-whitelist" source="npm"/>
   <preference name="android-build-tool" value="gradle" /> 
-  <gap:plugin name="cordova-plugin-admobpro" 	      source="npm" />
+  <plugin name="cordova-plugin-admobpro" 	      source="npm" />
   <icon src="icon.png"/>
   <platform name="android">
     <icon src="www/res/icon/android/drawable-ldpi-icon.png" density="ldpi"/>
