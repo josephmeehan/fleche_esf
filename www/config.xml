@@ -50,7 +50,7 @@
     <plugin name="cordova-plugin-vibration"           source="npm" />
     <plugin name="cordova-plugin-whitelist"           source="npm" />
     <preference name="android-build-tool" value="gradle" /> 
-    <plugin name="cordova-plugin-admobpro" 	      source="npm" />
+    <gap:plugin name="cordova-plugin-admobpro" 	      source="npm" />
 
     <!-- Define app icon and splashscreen for each platform. -->
     <icon src="icon.png" />
